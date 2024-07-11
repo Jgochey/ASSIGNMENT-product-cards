@@ -10,6 +10,7 @@ font-family: "Wittgenstein", Wittgenstein, serif
 }
 
 .boldme {
+order: 2;
 font-weight: bold;
 }
 
@@ -24,6 +25,16 @@ font-weight: bold;
   size: 100px;
 }
 
+.availability {
+  justify-content: left;
+  width: 20rem;
+  position: relative;
+  right: 1rem;
+  background-color: darkgray;
+  color: yellow;
+  order: 3;
+  }
+
 .card-title {
 
   border: solid 1px lightblue;
@@ -32,13 +43,6 @@ font-weight: bold;
 }
 
 .card-text {
-
+  order: 1;
   justify-content: center;
 }
-
-.availability {
-  align-self: baseline;
-  width: 100%;
-  background-color: darkgray;
-  color: yellow;
-  }
