@@ -1,0 +1,33 @@
+body {
+display: flex;
+background-color: yellowgreen;
+}
+
+.boldme {
+font-weight: bold;
+}
+
+.col {
+  display: flex;
+}
+
+.card {
+  display: flex;
+}
+
+.card-title {
+  border: solid 1px lightblue;
+  text-align: center;
+}
+
+.card-text {
+  justify-content: center;
+}
+
+
+
+.availability {
+  width: 100%;
+  background-color: darkgray;
+  color: yellow;
+  }
