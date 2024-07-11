@@ -1,6 +1,7 @@
 body {
 display: flex;
 background-color: yellowgreen;
+font-family: "Wittgenstein", Wittgenstein, serif
 }
 
 .boldme {
@@ -15,18 +16,24 @@ font-weight: bold;
   display: flex;
 }
 
+.card-img-top {
+  display: flex;
+  size: 100px;
+}
+
 .card-title {
+  display: flex;
   border: solid 1px lightblue;
   text-align: center;
 }
 
 .card-text {
+  display: flex;
   justify-content: center;
 }
 
-
-
 .availability {
+  display: flex;
   width: 100%;
   background-color: darkgray;
   color: yellow;
