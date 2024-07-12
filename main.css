@@ -46,3 +46,15 @@ font-weight: bold;
   order: 1;
   justify-content: center;
 }
+
+.sold {
+  position: relative;
+  display: inline;
+}
+
+#soldOut {
+  position: absolute;
+  left: 10px;
+  top: 160px;
+  width: 98%;
+}
