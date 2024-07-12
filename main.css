@@ -58,3 +58,18 @@ font-weight: bold;
   top: 160px;
   width: 98%;
 }
+
+@media (max-width: 600px) {
+  .card {
+    background-color: blue;
+    color: red;
+    flex-direction: column;
+    position: relative;
+    align-self: center;
+    left: 100px;
+  }
+
+  .card-text, .card-title {
+    color: white;
+  }
+}
